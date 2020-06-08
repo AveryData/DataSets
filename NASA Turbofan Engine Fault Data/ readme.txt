@@ -5,12 +5,12 @@ PHM08 Prognostics Data Challenge Dataset
 Description
 This dataset was used for the prognostics challenge competition at the International Conference on Prognostics and Health Management (PHM08). The challenge is still open for the researchers to develop and compare their efforts against the winners of the challenge in 2008. References to the three winner papers are provided below.
 
-[1] Heimes, F.O., ìRecurrent neural networks for remaining useful life estimationî, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
-[2] Tianyi Wang, Jianbo Yu,  Siegel, D.,  Lee, J., ìA similarity-based prognostics approach for Remaining Useful Life estimation of engineered systemsî, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
-[3] Peel, L., ìRecurrent neural networks for remaining useful life estimationî, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+[1] Heimes, F.O., ‚ÄúRecurrent neural networks for remaining useful life estimation‚Äù, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+[2] Tianyi Wang, Jianbo Yu,  Siegel, D.,  Lee, J., ‚ÄúA similarity-based prognostics approach for Remaining Useful Life estimation of engineered systems‚Äù, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+[3] Peel, L., ‚ÄúRecurrent neural networks for remaining useful life estimation‚Äù, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
 
 Experimental Scenario
-Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine ñ i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise.
+Data sets consist of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine ‚Äì i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data are contaminated with sensor noise.
 The engine is operating normally at the start of each time series, and starts to degrade at some point during the series. In the training set, the degradation grows in magnitude until a predefined threshold is reached beyond which it is not preferable to operate the engine. In the test set, the time series ends some time prior to complete degradation. The objective of the competition is to predict the number of remaining operational cycles before in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate properly.
 
 Usage
@@ -61,8 +61,8 @@ final_test trajectories: 435
 
 
 Contacts
-Abhinav Saxena ñ abhinav.saxena@nasa.gov, 650-604-3208
-Kai Goebel ñ kai.goebel@nasa.gov 
+Abhinav Saxena ‚Äì abhinav.saxena@nasa.gov, 650-604-3208
+Kai Goebel ‚Äì kai.goebel@nasa.gov 
 
 References
-A. Saxena, K. Goebel, D. Simon, and N. Eklund, ìDamage Propagation Modeling for Aircraft Engine Run-to-Failure Simulationî, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+A. Saxena, K. Goebel, D. Simon, and N. Eklund, ‚ÄúDamage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation‚Äù, in the Proceedings of the 1st International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
